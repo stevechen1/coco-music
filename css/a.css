@@ -42,12 +42,14 @@ img {
     height: 1vh;
     margin: 0 auto;  
     cursor: pointer;
+    border-radius: 5px;
 }
 .pro-play {
     background: #000;
     width: 0%;
     height: 1vh;  
     border-right: 4px solid red;
+    border-radius: 5px; 
 }
 .proTime {
     padding-top: 20px;

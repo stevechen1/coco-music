@@ -75,7 +75,7 @@ function autoPlayNext (){
 
 
 
-// click操作
+// dom操作
 $('.play').addEventListener('click',function(){
     music.play()
     $('.play').classList.add('hidden')
@@ -107,8 +107,8 @@ $('.progress').addEventListener('click',function (e){
     music.currentTime = music.duration * clickPer
 })
 //audio 的属性
-music.shouldUpdate = true
-music.onended = autoPlayNext
+// music.shouldUpdate = true 
+music.onended =         
 // music.ontimeupdate = musicProgress
 music.onplaying = function (){
     setInterval(() => {
