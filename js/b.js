@@ -68,7 +68,7 @@ function musicProgress (){
 function autoPlayNext (){
     if(music.currentTime == music.duration && music.currentTime !== 0){
         loadNextMusic()
-        console.log('ex')
+        // console.log('ex')
         music.play()
     }
 }
@@ -107,8 +107,10 @@ $('.progress').addEventListener('click',function (e){
     music.currentTime = music.duration * clickPer
 })
 //audio 的属性
-// music.shouldUpdate = true 
-music.onended =         
+// music.shouldUpdate = true //线下
+music.onended = function (){
+    autoPlayNext()
+}         
 // music.ontimeupdate = musicProgress
 music.onplaying = function (){
     setInterval(() => {

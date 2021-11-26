@@ -83,5 +83,10 @@ img {
 .iconfont:hover {
     background: rgb(66, 133, 49); 
 }
+/* @media screen and(max-width: 800px){
+    .play-control {
+        border: 1px solid #000;
+    }
+} */
 
 
