@@ -1,0 +1,37 @@
+{
+  "id": "2966404",
+  "name": "coco-music",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5428460",
+      "name": "next",
+      "font_class": "next",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "5428488",
+      "name": "previous",
+      "font_class": "previous",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "212328",
+      "name": "play_fill",
+      "font_class": "play",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "4767104",
+      "name": "pause",
+      "font_class": "pause",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    }
+  ]
+}
