@@ -12,7 +12,7 @@ a music player
 `music.pause()`
 ---
 * 自动播放
-`music.autoplay = true
+`music.autoplay = true`
 ---
 * 歌曲结束
 `music.onended`
