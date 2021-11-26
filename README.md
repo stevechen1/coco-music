@@ -3,7 +3,7 @@ a music player
 [预览](https://stevechen1.github.io/coco-music/)
 `tag: nodejs+html+css+js`
 ## 原生js 写一个音乐播放器
-`music = new Audio`
+`music = new Audio()`
 ### 1.audio 的方法
 * 播放
 `music.play()`
